@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text&display=swap');
+
+
+
+html {
+    font-family: 'Wix Madefor Text', sans-serif;
+    background-color: #292d3e;
+    color: rgba(255, 255, 255, 1);
+}
+
+h1 {
+    font-size: 5vh;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    background: #212431;
+    color: white;
+    width: 10vw;
+    height: 8vh;
+    font-size: 2.2vh;
+    margin: none;
+
+
+}
+
+.blue:hover {
+    background: #012169;
+
+}
+
+.red:hover {
+    background: #c8102e;
+}
+
+.white:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+
+
+button:hover {
+    background: #383f61;
+    /* box-shadow: 0.277vh 0.277vh 0.277vh 0 rgba(0 ,0 ,0 ,0.5); */
+
+
+}
+
+.logo-top {
+    background-color: #404661;
+    height: 10vh;
+    display: flex;
+    /* use flexbox */
+    justify-content: flex-start;
+    /* align items on both sides with equal space */
+    align-items: center;
+    /* vertically center the items */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0.18vh 0.277vh 0.18vh rgba(0, 0, 0, 0.5);
+    z-index: 5;
+
+}
+
+.logo-top img {
+    height: 7vh;
+    border-radius: 0.463vh;
+
+
+}
+
+.navigation {
+    background-color: #212431;
+    height: 8vh;
+    top: 10vh;
+    display: flex;
+    /* use flexbox */
+    justify-content: flex-start;
+    /* align items on both sides with equal space */
+    align-items: center;
+    /* vertically center the items */
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    box-shadow: 0 0.185vh 0.277vh 0.463vh rgba(0, 0, 0, 0.5);
+
+
+}
+
+.grid-item {
+    /* make all items take up equal space */
+    text-align: center;
+    /* horizontally center the content within each item */
+    margin-left: 1vw;
+    /* add some margin between the items */
+}
+
+
+.top-button button{
+    background: #4d5577;
+    width: 10vw;
+    height: 7vh;
+    margin: none;
+    border-radius: 15vh;
+}
+
+.button-with-space{
+    margin-left: 60vw;
+}
+
+
+.main-text{
+    text-align: center;
+    justify-content: center;
+    margin-left: 15vw;
+    margin-top: 25vh;
+    background: #c8102e;
+    border-radius: 2vh 2vh 1vh 1vh ;
+    width:70vw;
+    box-shadow: 0 0.18vh 0.277vh 0.18vh rgba(0, 0, 0, 0.5);
+    padding: 2vw;
+    padding-top: 0.5vw;
+
+}
+
+.main-text h1{
+    background-color: #a00c25;
+    border-radius: 2vh 2vh 2vh 2vh;
+    box-shadow: 0 0.18vh 0.277vh 0.18vh rgba(0, 0, 0, 0.5);
+    
+    
+    
+}
+
+p{
+    font-size: 3vh;
+}
+
+a{ 
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+.main-text a{
+    color: #f1b3b3;
+}
+
+.main-text a:hover{
+    color: #490000;
+}
+
+.main-text img{
+    box-shadow: 0 0.18vh 0.277vh 0.18vh rgba(0, 0, 0, 0.7);
+}
+
+#time{
+    background-color: #1b49ac;
+}
+
+#time:hover{
+    background: #012169;
+}
+
+#beginner{
+    background-color: #ff143a;
+}
+
+#beginner:hover{
+    background-color: #c8102e;
+}
+
+#event{
+    background-color: #cccccc;
+    color: #000000;
+    
+}
+
+#event:hover{
+    background-color: #ffffff;
+}
+
+.side-buttons-top{
+    
+}
+
+
