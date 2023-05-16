@@ -29,7 +29,7 @@ button {
 
 
 .blue:hover {
-    background: #012169;
+    background: #164ecf;
 
 }
 
@@ -197,7 +197,7 @@ button:hover{
     text-align: center;
     justify-content: center;
     margin-left: 13vw;
-    margin-right: 13vw;
+    
     margin-top: 10vh;
     background: #012169;
     border-radius: 2vh 2vh 2vh 2vh;
@@ -220,13 +220,11 @@ button:hover{
 
 .text-3{
     text-align: center;
-    justify-content: center;
     margin-left: 13vw;
-    margin-right: 13vw;
     margin-top: 10vh;
     background: #012169;
     border-radius: 2vh 2vh 2vh 2vh;
-    width: 40vw;
+    width: 30vw;
     box-shadow: 0 0.18vh 0.277vh 0.18vh rgba(0, 0, 0, 0.5);
     padding: 2vw;
     padding-top: 0.5vw;
@@ -245,7 +243,34 @@ button:hover{
 }
 
 .text-3 p{
-    font-size: 2vh;
+    font-size: 1.7vh;
 }
+
+.blue img{
+    
+    height: 5vh;
+    right: 1vw;
+}
+
+.red img{
+    height: 5vh;
+}
+
+.white img{
+    height: 5vh;
+}
+
+.text-2 h2{
+    font-size: 4vh;
+    background-color: #001242;
+    border-radius: 2vh;
+}
+
+.main-text .dbg{
+    background-color: #001242;
+    border-radius: 2vh;
+
+}
+
 
 
